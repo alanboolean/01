@@ -1,0 +1,143 @@
+/* Resetowanie marginesów i paddingów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ustawienia ogólne */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Sekcja - O mnie */
+#about {
+    background-color: #ecf0f1;
+    padding: 40px 0;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Sekcja - Umiejętności */
+#skills {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+#skills h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#skills li {
+    font-size: 1.1rem;
+    padding: 5px 0;
+}
+
+/* Sekcja - Projekty */
+#projects {
+    background-color: #f1f1f1;
+    padding: 40px 0;
+}
+
+#projects h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+/* Sekcja - Kontakt */
+#contact {
+    padding: 40px 0;
+    background-color: #ecf0f1;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+#contact a {
+    font-weight: bold;
+}
+
+/* Stopka */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
